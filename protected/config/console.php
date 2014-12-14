@@ -20,10 +20,10 @@ return array(
 	// application components
 	'components'=>array(
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=test_imdb',
+			'connectionString' => 'mysql:host=localhost;dbname=',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'marketplus44238',
+			'username' => '',
+			'password' => '',
 			'charset' => 'utf8',
 		),
 		'imdbs'=>array(
