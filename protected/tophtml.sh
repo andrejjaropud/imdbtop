@@ -1,0 +1,1 @@
+./yiic top gettophtml
