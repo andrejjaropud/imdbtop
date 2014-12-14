@@ -43,7 +43,7 @@ return array(
 			'connectionID'=>'db',
 		),
 		'bootstrap'=>array(
-			'class'=>'bootstrap.components.Bootstrap',
+			'class'=>'ext.bootstrap.components.Bootstrap',
 		),
 		'curl' => array(
 			'class' => 'ext.curl.Curl',
@@ -67,7 +67,7 @@ return array(
 		*/
 
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=',
+			'connectionString' => 'mysql:host=;dbname=',
 			'emulatePrepare' => true,
 			'username' => '',
 			'password' => '',
