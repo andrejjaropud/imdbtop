@@ -61,7 +61,11 @@ function validatedate(inputText,val_max,val_min)
         else
         {
             alert("The Top for this date is absent!\n There are Tops from "+val_min+" to "+val_max);
-            $( "#datepicker" ).focus();
+            $('#datepicker').focusout(function() {
+                setTimeout(function() {
+                    $(this).focus();
+                }, 0);
+            });
             return false;
         }
     }
